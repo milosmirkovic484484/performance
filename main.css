@@ -1,0 +1,796 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+#header_area {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    
+}
+
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 25px 25px 0 15px;
+    font-size: 17px;
+    font-family: "Arial";
+    color: rgb(161, 163, 166);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+ 
+
+  .icon-bar{
+      display: none;
+  }
+  
+  
+  
+  .topnav a:hover {
+    
+    color: #9e0243;
+  }
+  .topnav a:active {
+      color: #781759;
+  }
+  .topnav a:focus {
+    color: #174c90;
+  }
+  
+
+  
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+ 
+
+.search-box  {
+    float: right;
+    
+    
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: 1px solid #bababa;
+    display: none;
+   
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+#banner-area {
+    background-image: url("img/dots.png");
+    position: relative;
+    max-width: 768px;
+    margin: 0 auto;
+    height: 310px;
+    text-align: center;
+    
+    
+
+}
+.slider-area {
+    width: 450px;
+}
+
+
+
+.slider-area li img {
+    margin: 64px auto;
+    display: inline-block;
+   
+}
+.slider-area li h1 {
+    
+    display: inline-block;
+    font-size: 42px;
+    font-family: "Arial";
+    color: rgb(117, 117, 117);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    width: 330px;
+    height: 95px;
+
+}
+
+
+.pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background-color:#9e0243;
+}
+
+.pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a{
+    color: #bababa;
+}
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+     border: none; 
+     background: #fff;
+
+}
+hr {
+    max-width: 768px;
+    margin: 45px auto ;
+    background-color: #d5d5d5;
+}
+
+
+#we-are {
+    max-width: 768px;
+    margin: 43px auto 20px;
+
+
+}
+.section {
+font-size: 30px;
+  font-family: "Arial";
+  color: rgb(117, 117, 117);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  padding-right: 140px;
+
+  
+
+}
+#boxes {
+    max-width: 768px;
+    margin: 0 auto;
+}
+.school {
+    width: 100;
+    clear: both;
+    
+
+}
+
+.school ul {
+    margin: 0;
+    padding:  0;
+    list-style: none;
+    text-align: right;
+   
+}
+.school ul li{
+    display: inline-block;
+    
+      
+    
+    
+}
+.school ul li {
+    width: 189px;
+    height: 120px;
+    background-color: #e9e9e9;
+}
+.school ul li a i{
+    margin: 15% 35%; 
+    
+    font-size: 49px;
+    color: rgb(117, 117, 117);
+
+}
+.school ul li a i:hover {
+    color:  #9e0243;
+}
+
+
+.schoole-words {
+    width: 100%;
+    clear: both;
+    
+  
+
+}
+.schoole-words p {
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(100, 100, 100);
+    line-height: 1.2;
+    width: 185px;
+    height: 89px;
+    
+}
+.main-banner .read-more {
+
+    clear: both;
+    font-size: 11px;
+    font-family: "DINPro";
+    color: rgb(100, 100, 100);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-decoration: none;
+    
+   
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-right: 35px;
+    
+}
+.read-more {
+   
+   float: right;
+}
+
+.read-more:hover {
+    border-radius: 3px;
+    background-color: rgb(188, 213, 70);
+}
+#boxes2 {
+    max-width: 768px;
+    margin: 0 auto;
+
+}
+
+.calculator {
+    width: 100;
+    clear: both;
+    
+
+}
+
+.calculator ul {
+    margin: 0;
+    padding:  0;
+    list-style: none;
+    text-align: right;
+   
+}
+.calculator ul li{
+    display: inline-block;
+    
+      
+    
+    
+}
+.calculator ul li {
+    width: 189px;
+    height: 120px;
+    background-color: #e9e9e9;
+}
+.calculator ul li a i{
+    margin: 18% 39%; 
+    
+    font-size: 49px;
+    color: rgb(117, 117, 117);
+
+}
+.calculator ul li a i:hover {
+    color:  #9e0243;
+}
+
+
+.cloud {
+    width: 100;
+    clear: both;
+    
+
+}
+
+.cloud ul {
+    margin: 0;
+    padding:  0;
+    list-style: none;
+    text-align: left;
+   
+}
+.cloud ul li{
+    display: inline-block;
+    
+      
+    
+    
+}
+.cloud ul li {
+    width: 189px;
+    height: 120px;
+    background-color: #e9e9e9;
+}
+.cloud ul li a i{
+    margin: 18% 34%; 
+    
+    font-size: 49px;
+    color: rgb(117, 117, 117);
+
+}
+.cloud ul li a i:hover {
+    color:  #9e0243;
+}
+
+#boxes3 {
+    max-width: 768px;
+    margin: 37px auto 80px;
+}
+
+
+
+
+
+  
+
+
+
+  
+
+  
+
+#footer_area {
+    max-width: 768px;
+    height: 59px;
+    background-color: #dbdbdb;
+    margin: 0 auto ;
+    padding: 0;
+    
+
+}
+.social-area {
+    width: 100%;
+    clear: both;
+    padding: 10px 0;
+}
+.social-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.social-area ul li {
+    display: inline-block;
+    margin-left: 5px;
+
+}
+.social-area ul li a {
+    background-color: #fafafa;
+    width: 40px;
+    height: 39px;
+    color:  #6d6e71;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%; 
+}
+.social-area ul li a:hover {
+    background-color: #fafafa;
+    
+    color:  #9e0243;
+     
+}
+#main-menu{
+    text-align: center;
+    
+
+}
+#main-menu ul {
+    margin: 0;padding: 18px 0; list-style: none;
+
+}
+#main-menu ul li {
+    display: inline-block;
+
+}
+#main-menu ul li a {
+    font-size: 20px;
+    font-family: "Arial";
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-decoration: none;
+    padding: 10px 5px;
+    color: #898989;
+
+}
+#main-menu ul li a:hover {
+    color: #9e0243;
+}
+#up  {
+    width: 100%;
+    clear: both;
+    padding: 10px 0;
+    text-align: right;
+
+}
+#up  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+
+}
+#up ul li {
+    display: inline-block;
+    margin-right: 5px;
+
+}
+#up ul li a  {
+    background-color: #fafafa;
+    width: 40px;
+    height: 39px;
+    color:  #9e0243;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%; 
+
+}
+#up ul li a:hover {
+    color: #9e0243;
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 419px) {
+    
+  
+
+    .slider-area li img {
+        margin: 15px auto 0 auto !important;
+        display: block !important;
+    }
+    
+
+    hr {
+        max-width: 768px !important;
+        margin: 0px auto 45px !important;
+        background-color: #d5d5d5 !important;
+    }
+    .slider-area li h1 {
+        display: contents !important;
+        font-size: 31px !important;
+        font-family: "Arial";
+        color: rgb(117, 117, 117);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left !important;
+        width: 330px;
+        height: 95px;
+    }
+    .section {
+        padding-right: 0px !important;
+    }
+    .school ul {
+        text-align: center !important;
+    }
+
+    h5.lorem {
+        text-align: center !important ;
+        padding-right: 65px;
+    }
+
+    p.lorem {
+        display: none !important;
+    }
+
+    .main-banner .read-more {
+        margin-right: 46px !important;
+    }
+    a.read-more {
+        text-align: center !important;
+        display: block !important;
+    }
+    .calculator ul {
+       
+        text-align: center !important;
+        margin-bottom: 30px !important;
+    }
+    .cloud ul {
+        text-align: center !important;
+        margin-bottom: 0 !important;
+    }
+    ul.main-menu1 {
+        display: none !important;
+    }
+    #up {
+        text-align: right !important;
+        margin: -60px 0 0 0 !important;
+    }
+
+   
+}
+
+@media only screen and (min-device-width : 420px) and (max-device-width : 530px) {
+   
+    .slider-area li img {
+        margin: 20px 0 15px 0 !important;
+    }
+    .slider-area li h1 {
+    text-align: center !important;
+    }
+    .section {
+        text-align: center !important;
+        padding-right: 0 !important;
+    }
+    .school ul {
+        text-align: center !important;
+    }
+    h5.lorem {
+        text-align: center !important;
+        padding-right: 55px !important;
+        margin-top: 10px !important;
+    }
+    .calculator ul {
+        padding: 0 0 20px 0 !important;
+        text-align: center !important;
+    }
+    .cloud ul {
+        text-align: center !important;
+    }
+    ul.main-menu1 {
+        display: none !important;
+    }
+    #up {
+        text-align: right !important;
+        margin: -60px 0 0 0 !important;
+    }
+    
+
+   
+}
+
+
+@media only screen and (min-device-width : 531px) and (max-device-width : 575px) {
+   
+    .slider-area li img {
+        margin: 10px 0 15px 0 !important;
+    }
+    .slider-area li h1 {
+    text-align: center !important;
+    }
+    .section {
+        text-align: center !important;
+        padding-right: 0 !important;
+    }
+    .school ul {
+        text-align: center !important;
+    }
+    h5.lorem {
+        text-align: center !important;
+        padding-right: 55px !important;
+        margin-top: 10px !important;
+    }
+    .calculator ul {
+        padding: 0 0 20px 0 !important;
+        text-align: center !important;
+    }
+    .cloud ul {
+        text-align: center !important;
+    }
+    ul.main-menu1 {
+        display: none !important;
+    }
+    #up {
+        text-align: right !important;
+        margin: -60px 0 0 0 !important;
+    }
+    #banner-area {
+      
+        
+        margin: 0 auto !important;;
+        
+        text-align: center !important;;
+    }
+    hr {
+       
+        margin: 0 0 15px auto !important;
+        background-color: #d5d5d5 !important;
+    }
+   
+    
+
+   
+}
+
+@media only screen and (min-device-width : 576px) and (max-device-width : 765px) {
+    ul.main-menu1 {
+        display: none !important;
+    }
+    #up {
+        text-align: right !important;
+        margin: -60px 0 0 0 !important;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (min-device-width : 408px) and (max-device-width : 631px) {
+    .topnav a {
+        display: none;
+    }
+
+    .icon-bar {
+        display: block;
+        width: 100%;
+        
+        overflow: auto;
+    }
+    
+    .icon-bar a {
+
+        float: left;
+        
+        text-align: center;
+        padding: 15px 10px;
+        transition: all 0.3s ease;
+        color: #a1a3a6;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+  
+    
+    .icon-bar a:hover {
+        color: #9e0243;
+        cursor: pointer;
+    }
+    
+    .icon-bar a:active {
+        color: #781759;
+
+    }
+    .icon-bar a:focus {
+        color: #512c6f;
+    }
+    .search-box input[type=text] {
+        display: block;
+    }
+    
+}
+
+
+
+
+
+
+  
+@media only screen and (min-device-width : 320px) and (max-device-width : 407px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      font-size: 30px;
+      color: #9d9d9c;
+      margin: 5px 0;
+      
+    }
+    .topnav a.icon:hover {
+        background-color: #fff;
+    }
+   
+    .topnav a {
+      
+        padding: 7px 16px;
+    }
+    
+    .fa-search {
+        display: none;
+    }
+    .search-box input[type=text] {
+        display: block;
+    }
+  }
+  
+  @media screen and (max-width: 634px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+
+       
+    }
+    a.cc {
+       background-color: #9e0243;
+       color: white;
+       border: 1px solid white;
+       font-size: 14px;
+      
+    }
+    a.cc1 {
+        background-color: #781759;
+        color: white;
+        border: 1px solid white;
+        font-size: 14px;
+     }
+     a.cc2 {
+        background-color: #512c6f;
+        color: white;
+        border: 1px solid white;
+        font-size: 14px;
+     }
+     a.cc3 {
+        background-color: #174c90;
+        color: white;
+        border: 1px solid white;
+        font-size: 14px;
+     }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      margin: 2px auto;
+    
+      
+    }
+    .search-box input[type=text] {
+        display: block;
+    }
+    
+    
+  }
